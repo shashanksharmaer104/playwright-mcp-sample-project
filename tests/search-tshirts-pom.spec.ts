@@ -13,4 +13,5 @@ test.describe('Search T-shirts', () => {
     const isVisible = await searchResultsPage.isProductVisible('Faded Short Sleeve T-shirts');
     expect(isVisible).toBeTruthy();
   });
+  
 });
